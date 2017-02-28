@@ -1,0 +1,27 @@
+void setup() {
+  pinMode (3, OUTPUT);//Gantry Motor
+  pinMode (2, INPUT);
+  pinMode (8, INPUT); 
+  pinMode (12, INPUT); 
+  pinMode (5, OUTPUT);// Base Motor
+}
+
+// Must always have a loop() function, even if there is nothing in it
+void loop() {
+
+  if (HIGH == digitalRead(2) ) {
+    analogWrite(3, 200);  
+    analogWrite(5, 200);    
+  } else if (HIGH == digitalRead(8) ) {
+    analogWrite(3, 200);  
+    analogWrite(5, 100);    
+  } else if (HIGH == digitalRead(12) ) {
+    analogWrite(3, 80);  
+    analogWrite(5, 200);    
+  }
+  else {
+    analogWrite(3, 0);    // motor off
+    analogWrite(5, 0);
+  }
+ 
+ }
