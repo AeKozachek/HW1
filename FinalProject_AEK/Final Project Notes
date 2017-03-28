@@ -1,0 +1,11 @@
+Code for the RTC was from this website 
+http://henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/arduino-tiny-rtc-d1307-tutorial/
+
+Code for the H Bridge was from this website. The switchPin was removed in favor of and If statment Driven by the Clock and current time.
+https://itp.nyu.edu/physcomp/labs/motors-and-transistors/dc-motor-control-using-an-h-bridge/
+
+the Pump I am using for this project.
+https://www.adafruit.com/product/1150
+
+RTC for this project.
+https://www.amazon.com/JBtek-DS1307-AT24C32-memory-Arduino/dp/B00UUR8GJU/ref=sr_1_3?ie=UTF8&qid=1490667956&sr=8-3&keywords=Tiny+RTC
