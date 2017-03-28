@@ -1,0 +1,20 @@
+My updated propsal for my final project is a ocean tide clock. This will be a visual representation of current level of the tide.
+This will be accomplished by using a controlled water level connected to a Real Time Clock. 
+
+
+For the tide clock a pump would be turned on at a specific time. 
+when the water level reaches the appropriate level the pump would shut off and a solenoid that actuates a drain would 
+open and lower the water level to the appropriate low level. 
+once at the low point the solenoid would shut and the cycle could repeat moving up roughly an hour everyday 
+for example if it started at 9:00 today tomorrow it would start at 10:00.
+
+My Updated Parts List is going to be:
+peristaltic pump(This is a DC motor and this pump works in both forward and revers) 
+H Bridge
+Arduino Uno
+Water Level reistor
+RTC(Real Time Clock)
+Bread Board
+Two Water Tanks
+Sand
+Water
