@@ -9,3 +9,6 @@ https://www.adafruit.com/product/1150
 
 RTC for this project.
 https://www.amazon.com/JBtek-DS1307-AT24C32-memory-Arduino/dp/B00UUR8GJU/ref=sr_1_3?ie=UTF8&qid=1490667956&sr=8-3&keywords=Tiny+RTC
+
+Update for Tide clock motor issues. I have recently installed my Peristaltic pump from adafruit(https://www.adafruit.com/product/1150?gclid=CN_dhsD2odMCFUGTfgodWm8Cbg.
+I Installed it into my ardunio connected to my H Bridge and used. My working code form earlier in the project and the pump wont activate. The only diffrence i can find Is that the Test motor is a 5 volt DC motor and the Peristaltic pump is a Geared down 12 volt DC motor. Also when i had the Peristaltic pump hooked up the H Bridge got very hot. Any Help in sorting out this problem would be greatly appreciated!
